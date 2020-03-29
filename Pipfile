@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow = "*"
+networkx = "==1.11"
+pyemd = "*"
+tensorboard_logger = "*"
+torch = "*"
+matplotlib = "*"
+sklearn = "*"
+community = "*"
+torchvision = "*"
+
+[requires]
+python_version = "3.7"
